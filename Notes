@@ -1,0 +1,37 @@
+
+
+Sections
+    * Greeting
+    * About Me
+    * Work Experience
+    * Things that I have built.
+    * Other Projects
+    * Get in touch
+
+Database Model
+
+    Intro
+        head-text
+        intro-text
+
+        about-me-intro1
+        about-me-intro2
+
+        recent-tech-used [list]
+
+    Experience
+        role-title
+        Employer-name
+        employment-date
+        experience-descriptions [list]
+
+    Projects
+        name
+        description
+        project-preview-picture
+        Features [list]
+        Technology used
+        project-git-link
+        project-other-link
+
+

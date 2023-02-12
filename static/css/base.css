@@ -1,0 +1,61 @@
+body, .navbar, .dropdown-menu{
+    background-color: #0d2036 !important;
+    font-family: 'Roboto';
+    font-size: 13px;
+
+
+}
+
+.Gio-color{
+    color:#F6D888 !important;
+}
+.Gio-color-big{
+    color: #6EFFC6FF!important;
+}
+.big-text{
+    font-size: 50px;
+}
+
+.light-white{
+    color: rgba(240, 255, 255, 0.7) !important;
+    font-family: 'Encode Sans Semi Condensed', monospace !important;
+}
+
+.body-content{
+    padding-top:6vh;
+}
+
+#b,.b {
+    list-style-type: square;
+    list-style-color: red !important;
+}
+.my-border{
+    border:2px #F6D888 solid;
+}
+.col-full {
+    width: 1044px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 200px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+.projects-row{
+    margin-top:7% !important;
+}
+.project-description-container{
+    background-color: #0b366b !important;
+    border-color: #0d2036 !important ;
+}
+
+.h-list{
+    display:inline !important;
+}
+.footer{
+    margin-top: 15% !important;
+
+
+}
