@@ -92,7 +92,7 @@
         <!-- Work Experience Section -->
         <section id="section2" class="mt-3  ms-3 text-white body-content">
             <div class="container">
-                <h3><span class="Gio-color"> 0.2 </span>Where I've worked</h3> <hr class="border border-2">
+                <h3><span class="Gio-color"> 0.2 </span>Where I've Worked</h3> <hr class="border border-2">
 
                 <div class="row projects-row">
                     <div class="col-12">
@@ -111,9 +111,9 @@
                                             {{ my_exp.role}} <span class="Gio-color">@ {{ my_exp.employer }} </span>
                                         </h6>
                                         <small class="light-white ">{{ my_exp.employement_date}}</small>
-                                        <ul class="light-white mt-3">
+                                        <ol class="light-white mt-3">
                                             {% if my_exp.experience_descriptions1 %}
-                                                <li>{{ my_exp.experience_descriptions1 }}</li>
+                                                <p>{{ my_exp.experience_descriptions1 }}</p>
                                             {% endif %}
 
                                             {% if my_exp.experience_descriptions2 %}
@@ -155,7 +155,7 @@
                                             {% else %}
 
                                             {% endif %}
-                                        </ul>
+                                        </ol>
                                     </div>
                                 {% endfor %}
                             </div>
@@ -235,7 +235,7 @@
         <!-- My Work Section -->
         <section id="section3" class="mt-3 ms-3 text-white body-content">
             <div class="container">
-                <h3><span class="Gio-color "> 0.3 </span>Things I've built</h3> <hr class="Gio-color border border-2">
+                <h3><span class="Gio-color "> 0.3 </span>Things I've Built</h3> <hr class="Gio-color border border-2">
 
 
                 {% for project  in projects %}
@@ -279,7 +279,7 @@
                             <div class="row p-3">
                                 <div class="col">
                                     <ul class="h-list d-inline fs-6 light-white">
-                                        <li style="display:inline">{{ project.tech_used }}</li>
+                                        <li >{{ project.tech_used }}</li>
                                     </ul>
                                     <!-- Project Links -->
                                     <br>
@@ -432,8 +432,7 @@
 
                 <div class="row">
                     <div class="col-8 mx-auto">
-                        <p class="light-white text-center">Although I am not always looking for new opportunities, my inbox is always open.
-                            Whether you have a  question or just want to say hi, I'll try my best to get back to you!</p>
+                        <p class="light-white text-center">Thanks for stopping by! Don't hesitate to reach out.</p>
                         <br>
                         <div class="d-block">
                             {% for into in intros %}
