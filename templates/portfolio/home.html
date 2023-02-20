@@ -237,13 +237,12 @@
             <div class="container">
                 <h3><span class="Gio-color "> 0.3 </span>Things I've Built</h3> <hr class="Gio-color border border-2">
 
-
                 {% for project  in projects %}
                     <div class="row my-3 projects-row">
                         <!-- Project Image -->
                         <div class="col-md-7">
                             <a href="{{project.project_other_link}}">
-                                <img src="{{ project.proj_image_preview.url}}" alt="{{ project }} Image Preview" width="100%">
+                                <img src="{{ project.proj_image_preview.url}}" alt="{{ project }} Image Preview" width="100%" height="70%">
                             </a>
                         </div>
 
